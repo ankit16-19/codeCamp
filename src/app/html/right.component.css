@@ -1,0 +1,35 @@
+.main-right{
+        display: none;
+    } 
+@media screen and (min-width: 1000px){
+    .main-right{
+    display: block;
+    position: fixed;
+    overflow-y: scroll !important;
+    top: 0;
+    bottom: 0;
+    border-left:1px black solid;
+    top:70px;
+
+    }      
+}
+
+hr{
+    margin-top: 0;
+}
+
+
+.main-right a{
+   color: lightgray;
+    font-size: 90%;
+     padding: .3rem 1rem !important;
+}
+
+li{
+     color: lightgray;
+}
+
+p{
+    padding-left: 10px;
+    margin-bottom: 0;
+}
